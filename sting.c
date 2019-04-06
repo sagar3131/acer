@@ -6,6 +6,19 @@ while (*p)
 ++p;
 return (p - s);
 }
+
+char *my_strcpy(char *t, char *s)
+{
+
+char *p = t;
+
+ while (*t++ = *s++) ;
+
+
+return p;
+
+}
+
 int main(void)
 {
 int i;
